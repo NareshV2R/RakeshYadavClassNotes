@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.activities.VideoActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarVideo"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorBlue"
+        android:elevation="0dp"
+        app:titleTextColor="@color/colorWhite"
+        app:popupTheme="@style/ToolbarTheme">
+    </androidx.appcompat.widget.Toolbar>
+</LinearLayout>

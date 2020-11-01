@@ -1,0 +1,107 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBlue</item>
+        <item name="colorPrimaryDark">@color/colorBlue</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorBlue</item>
+        <item name="colorPrimaryDark">@color/colorBlue</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Light">
+        <item name="colorControlNormal">@color/colorWhite</item>
+    </style>
+
+    <style name="MyTextRegularMain" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textColorHint">@color/colorTextHint</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/colorTextBlack</item>
+    </style>
+
+    <style name="MyTextMedium" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+        <item name="android:textColorHint">@color/colorTextHint</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/colorTextBlack</item>
+    </style>
+
+    <style name="MyTextBold" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="android:textColorHint">@color/colorTextHint</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/colorTextBlack</item>
+    </style>
+
+    <style name="MyTextSemiBold" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textColorHint">@color/colorTextHint</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/colorTextBlack</item>
+    </style>
+
+
+    <!-- Regular Text Styles -->
+    <style name="MyTextRegularS" parent="MyTextRegularMain">
+        <item name="android:textSize">@dimen/_10ssp</item>
+    </style>
+
+    <style name="MyTextRegularM" parent="MyTextRegularMain">
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="MyTextRegularL" parent="MyTextRegularMain">
+        <item name="android:textSize">@dimen/_14ssp</item>
+    </style>
+
+    <style name="MyTextRegularXL" parent="MyTextRegularMain">
+        <item name="android:textSize">@dimen/_16ssp</item>
+    </style>
+
+    <!-- Bold Text Styles-->
+    <style name="MyTextBoldS" parent="MyTextBold">
+        <item name="android:textSize">@dimen/_10ssp</item>
+    </style>
+
+    <style name="MyTextBoldM" parent="MyTextBold">
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="MyTextBoldL" parent="MyTextBold">
+        <item name="android:textSize">@dimen/_14ssp</item>
+    </style>
+
+    <style name="MyTextBoldXL" parent="MyTextBold">
+        <item name="android:textSize">@dimen/_16ssp</item>
+    </style>
+
+    <!-- Semi-Bold Text Styles-->
+    <style name="MyTextSemiBoldS" parent="MyTextSemiBold">
+        <item name="android:textSize">@dimen/_10ssp</item>
+    </style>
+
+    <style name="MyTextSemiBoldM" parent="MyTextSemiBold">
+        <item name="android:textSize">@dimen/_12ssp</item>
+    </style>
+
+    <style name="MyTextSemiBoldL" parent="MyTextSemiBold">
+        <item name="android:textSize">@dimen/_14ssp</item>
+    </style>
+
+    <style name="MyTextSemiBoldXL" parent="MyTextSemiBold">
+        <item name="android:textSize">@dimen/_16ssp</item>
+    </style>
+
+
+</resources>

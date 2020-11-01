@@ -1,0 +1,2 @@
+rootProject.name='Rakesh Yadav Class Notes'
+include ':app'
